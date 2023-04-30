@@ -10,10 +10,13 @@
 
 2. `Vue.use(VueAxios)`
 
+3. `this.$axios.get('/test-request')`
+
 ### Setting up global configuration:
 
-https://axios-http.com/docs/req_config
 `Vue.use(VueAxios, {baseURL: '/api'})`
+
+https://github.com/axios/axios#request-config
 
 ### Setting up Interceptors for all HTTP calls in an application:
 
