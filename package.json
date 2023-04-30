@@ -1,6 +1,6 @@
 {
   "name": "vuejs-axios",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vue2/VueJS axios plugin",
   "main": "index.js",
   "scripts": {
