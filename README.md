@@ -10,8 +10,6 @@
 
 2. `Vue.use(VueAxios)`
 
----
-
 ### Setting up global configuration:
 
 https://axios-http.com/docs/req_config
