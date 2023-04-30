@@ -1,8 +1,8 @@
 import axios from 'axios'
 
-const Vue2Axios = {}
+const VueJSAxios = {}
 
-Vue2Axios.install = (Vue, options, promises) => {
+VueJSAxios.install = (Vue, options, promises) => {
   const handlers = {
     request: {
       done: (request) => request,
@@ -43,4 +43,4 @@ Vue2Axios.install = (Vue, options, promises) => {
   Vue.prototype.$axios = service
 }
 
-export default Vue2Axios
+export default VueJSAxios
