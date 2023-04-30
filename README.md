@@ -1,10 +1,10 @@
 # Axios plugin for VueJS
 
-**Install from npm:**
+### Install from npm:
 
 `npm install vuejs-axios`
 
-**Setup plugin in main.js:**
+### Setup plugin in main.js:
 
 1. `import VueAxios from 'vuejs-axios'`
 
@@ -12,13 +12,13 @@
 
 ---
 
-**Setting up global configuration:**
+### Setting up global configuration:
+
 https://axios-http.com/docs/req_config
 `Vue.use(VueAxios, {baseURL: '/api'})`
 
----
+### Setting up Interceptors for all HTTP calls in an application:
 
-**Setting up Interceptors for all HTTP calls in an application:**
 https://github.com/axios/axios#interceptors
 
 ```javascript
